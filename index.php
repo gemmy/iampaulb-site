@@ -12,7 +12,7 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
+  <title>Paul Bennett | Web Design | London, UK</title>
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -21,6 +21,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
   
   <style type='text/css'>
 	  a { color: #2d2d2d; text-decoration: none;}
@@ -33,6 +34,7 @@
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'><!-- 'Merriweather', serif; -->
   <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'><!-- 'Lekton', sans-serif; -->
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'><!-- 'Lobster', cursive; -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'><!-- 'PT Sans', sans-serif; -->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -58,7 +60,7 @@
   
   <div role="main">
   	<section id="mainhead">
-  		Web designer hiding in secret in the city of London.<br><span>Learning to come out of hiding to be a heroic web ninja!<span>
+  		Web designer hiding in secret, in the city of London.<br><span>Learning to come out of hiding to be a heroic web ninja!<span>
   	</section>
   	<p>
   	<section id="mainfoot">
@@ -68,21 +70,49 @@
   </div>
   
   <footer>
-  	<section id="footleft">
+  	<div class="social">
+  		<a href="http://www.twitter.com/paulbe_"><img src="img/twitter-bird-light-bgs.png" class="tbird" alt="twitter-bird-light-bgs" width="75" height="75"></a>
+  		<p>
+  		<div class="tweet"></div>
+  	</div> 	
+  	
+  	
+     <section id="footlow">
+  	<div id="footb_left">
   		This open sourced site is hosted on <a href="https://github.com/iampaulb/iampaulb-site">GitHub.</a><br>
   		Patches, suggestions, and comments are welcome.
-  	</section>
+  	</div>
   	
-  	<section id="footright">
+  	<div id="footb_right">
   		Paul Bennett | <?php echo date('D, m Y H')?> |
   		<a href="mailto:hello@iampaulb.com">Email</a> | <a href="skype:skypepaulbennett">Skype</a>
-  	</section>
+  	</div>
+  </section>
 
   </footer>
 
 
   <!-- JavaScript at the bottom for fast page loading -->
+  <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>  
 
+<script type='text/javascript'>
+    jQuery(function($){
+        $(".tweet").tweet({
+            username: "paulbe_",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 3,
+            auto_join_text_default: "we said,", 
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied to",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        });
+    });
+</script>
+  
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>

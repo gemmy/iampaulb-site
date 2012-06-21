@@ -69,7 +69,6 @@ body {
 /* =============================================================================
    Links
    ========================================================================== */
-ß
 a { color: #2d2d2d; text-decoration: none;}
 a:visited { color: #551a8b; }
 a:hover { color: #fe57a1; border-bottom: 1px dotted #2d2d2d;}
@@ -300,64 +299,54 @@ nav a:hover{
 	-webkit-column-count: 2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*** MAIN FOOTER ***/
 footer{
 	font-family: 'Merriweather', serif;
 	font-size: 12px;
 	line-height: 17px;
-
-	
 }
-#footleft{
+
+/*** SOCIAL FOOTER ***/
+.social{
+	float: left;
+	padding: 0;
+	height: 60px;
+	width: 820px;
+	display: block;
+	margin: auto;
+	
+	background-color: #e5e5de;
+	
+	border: 1px solid #cbc9c5;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+}
+
+
+/*** BOTTOM FOOTER ***/	
+#footlow{
+	float: left;
+	margin-top: 10px;
+}
+#footb_left{
 	float: left;
 }
-#footright{
+#footb_right{
 	float: right;
 	text-align: right;
 }
+/* ==|== key frames
+==================================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+*/
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
