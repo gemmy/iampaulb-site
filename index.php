@@ -72,6 +72,7 @@
   <footer>
   	<div class="social">
   		<a href="http://www.twitter.com/paulbe_"><img class="tbird" src="img/twitter-bird-light-bgs.png" alt="twitter-bird-light-bgs" width="100" height="100">
+  		<!--<a href="http://www.twitter.com/paulbe_"><img class="tbird" src="img/twitter-bird-dark-bgs.png" alt="twitter-dark-light-bgs" width="100" height="100"> -->
   		<p>
   		<div class="tweet"></div>
   	</div> 	

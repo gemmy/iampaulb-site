@@ -70,7 +70,7 @@ body {
    Links
    ========================================================================== */
 a { color: #2d2d2d; text-decoration: none;}
-a:visited { color: #551a8b; }
+a:visited { color: #2d2d2d; }
 a:hover { color: #fe57a1; border-bottom: 1px dotted #2d2d2d;}
 a:focus { outline: thin dotted; }
 
@@ -337,7 +337,11 @@ footer{
 	-webkit-animation-name: spin;
 	-webkit-animation-duration: 0.4s;
 	-webkit-animation-iteration-count: normal;
-	-webkit-animation-timing-function: linear;
+	-webkit-animation-timing-function: ease-out;
+	
+	-webkit-transition: opacity;
+	-webkit-transition-duration: 0.5s;
+	opacity: 0;
 }
 
 /*** BOTTOM FOOTER ***/	
