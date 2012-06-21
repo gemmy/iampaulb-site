@@ -21,6 +21,15 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  
+  <style type='text/css'>
+	  a { color: #2d2d2d; text-decoration: none;}
+	  a:visited { color: #551a8b; }
+	  a:hover { color: #fe57a1; border-bottom: 1px dotted 			#2d2d2d;}
+	  a:focus { outline: thin dotted; }
+	  
+  </style>
+  
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'><!-- 'Merriweather', serif; -->
   <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'><!-- 'Lekton', sans-serif; -->
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'><!-- 'Lobster', cursive; -->
@@ -65,7 +74,7 @@
   	</section>
   	
   	<section id="footright">
-  		Paul Bennett |  |
+  		Paul Bennett | <?php echo date('D, m Y H')?> |
   		<a href="mailto:hello@iampaulb.com">Email</a> | <a href="skype:skypepaulbennett">Skype</a>
   	</section>
 
