@@ -21,6 +21,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'><!-- 'Merriweather', serif; -->
+  <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'><!-- 'Lekton', sans-serif; -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'><!-- 'Lobster', cursive; -->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -34,14 +37,37 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
+  	<h1 class="title">iampaulb</h1>
+  	
+  	<nav>
+	  	<a href="#">about</a>
+	  	<a href="#">skills</a>
+	  	<a href="#">contact</a>
+  	</nav>
 
   </header>
   
   <div role="main">
+  	<section id="mainhead">
+  		Web designer hiding in secret in the city of London.<br><span>Learning to come out of hiding to be a heroic web ninja!<span>
+  	</section>
+  	<p>
+  	<section id="mainfoot">
+  		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+  	</section>
 
   </div>
   
   <footer>
+  	<section id="footleft">
+  		This open sourced site is hosted on <a href="https://github.com/iampaulb/iampaulb-site">GitHub.</a><br>
+  		Patches, suggestions, and comments are welcome.
+  	</section>
+  	
+  	<section id="footright">
+  		Paul Bennett |  |
+  		<a href="mailto:hello@iampaulb.com">Email</a> | <a href="skype:skypepaulbennett">Skype</a>
+  	</section>
 
   </footer>
 

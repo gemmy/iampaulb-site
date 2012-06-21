@@ -30,11 +30,31 @@ audio:not([controls]) { display: none; }
  * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; 
+	
+	border: 30px solid #2d2d2d;
+	padding: 0 2.75em;
+	
+	min-height: 1099px;
+	max-height: inherit;
+	max-width: 1099px;
+}
 
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { 
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	
+	margin: 5px auto; /*center*/
+	padding: 5px;
+	
+	background: #f2f2ea;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -50,7 +70,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
+a { color: #00e; text-decoration: none;}
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -215,9 +235,114 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Paul Bennett 
    ========================================================================== */
+   
+.title{
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	letter-spacing: -6px;
+	
+	float: left;
+	
+	margin-top: -5px
+}
+nav{
+	font-family: 'Lekton', sans-serif;
+	font-variant: small-caps;
+	font-size: 32px;
 
+	float: right;	
+	
+	margin-top: 40px;
+}
+nav a{
+	color: #2d2d2d;
+}
+nav a:hover{
+	padding: 0px 4px 0px 4px;
+	background-color: #e5e5de;
+	color: #2d2d2d;
+	border: 1px solid #cbc9c5;
+	
+	-webkit-transition-duration: 0.1s;	
+	
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	
+	
+}
+
+#mainhead{
+	margin: -50px auto; /*center*/
+	padding: 10px 0px 5px 0px;
+	
+	font-family: 'Lekton', sans-serif;
+	font-size: 34px;
+	line-height: 26px;
+	
+	float: left;
+}
+#mainhead span{
+	font-family: 'Lekton', sans-serif;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#mainfoot{
+	float: left;
+	margin: 40px 0 20px 0;
+	
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	line-height: 25px;
+	-webkit-column-count: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	line-height: 17px;
+
+	
+}
+#footleft{
+	float: left;
+}
+#footright{
+	float: right;
+	text-align: right;
+}
 
 
 
