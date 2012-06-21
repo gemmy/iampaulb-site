@@ -310,7 +310,7 @@ footer{
 .social{
 	float: left;
 	padding: 0;
-	height: 60px;
+	height: 65px;
 	width: 820px;
 	display: block;
 	margin: auto;
@@ -322,6 +322,23 @@ footer{
 	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
 }
 
+
+
+/*** TWITTER LOGO SPIN ***/
+.tbird a:hover focus{
+	text-decoration: none;
+}
+
+.tbird:hover{
+
+	white-space: nowrap;
+	overflow: hidden;
+	
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 0.4s;
+	-webkit-animation-iteration-count: normal;
+	-webkit-animation-timing-function: linear;
+}
 
 /*** BOTTOM FOOTER ***/	
 #footlow{
@@ -337,16 +354,16 @@ footer{
 }
 /* ==|== key frames
 ==================================================
-
-@-webkit-keyframes infinite-spinning {
+*/
+@-webkit-keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(1080deg);
   }
 }
-*/
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
