@@ -85,11 +85,17 @@ if (strcmp($script_tz, ini_get('date.timezone'))){
   		<div class="tbird">
   		<a href="http://www.twitter.com/paulbe_"><img  src="img/twitter-bird-light-bgs.png" alt="twitter-bird-light-bgs" width="100" height="100">
   		</div> 
+  		
   		<div class="tweet"></div>
+  		
+  		<nav class="socialicons">
+  			<ul>
+  				<li><a href="http://twitter.com/paulbe_"></a></li>
+  				<li><a href="linkedin"></a></li>
+  				<li><a href="facebook"></a></li>
+  			</ul>
+  		</nav>
   	</div> 	
-
-  	
-  	
   	<section id="footlow">
   	<div id="footb_left">
   		This open sourced site is hosted on <a href ="https://github.com/iampaulb/iampaulb-site">Github.</a><br>
