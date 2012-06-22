@@ -73,7 +73,7 @@ body {
 a { color: #2d2d2d; text-decoration: none;}
 a:visited { color: #2d2d2d; }
 a:hover { color: #fe57a1; border-bottom: 1px dotted #2d2d2d;}
-a:focus { outline: thin dotted; }
+a:focus { color: #2d2d2d; outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
@@ -302,6 +302,10 @@ footer{
 	font-family: 'Georgia', serif;
 	font-size: 14px;
 	line-height: 17px;
+	
+	position: relative;
+	left: 35px;
+	right: auto;
 }
 
 /*** SOCIAL FOOTER ***/
@@ -350,7 +354,7 @@ footer{
 	left: 6px;
 
 }
-
+/*
 .tbird a:hover focus{
 	text-decoration: none;
 }
@@ -370,18 +374,24 @@ footer{
 	-webkit-transition-duration: 0.5s;
 	opacity: 0;
 }
-
+*/
 /*** BOTTOM FOOTER ***/	
 #footlow{
 	float: left;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 #footb_left{
 	float: left;
+	position: relative;
+	right: 40px;
+	left: auto;
 }
 #footb_right{
 	float: right;
 	text-align: right;
+	position: relative;
+	left: 530px;
+	right: auto;
 }
 /* ==|== key frames
 ==================================================
