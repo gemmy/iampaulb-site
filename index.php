@@ -21,19 +21,30 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
   
   <style type='text/css'>
 	  a { color: #2d2d2d; text-decoration: none;}
 	  a:visited { color: #551a8b; }
-	  a:hover { color: #fe57a1; border-bottom: 1px dotted 			#2d2d2d;}
+	  a:hover { color: #fe57a1; border-bottom: 1px dotted #2d2d2d;}
 	  a:focus { outline: thin dotted; }
 	  
   </style>
   
+  <!-- time zone script -->
+  
+  <?php
+date_default_timezone_set('Europe/London');
+
+$script_tz = date_default_timezone_get();
+
+if (strcmp($script_tz, ini_get('date.timezone'))){
+
+}
+?>
+  
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'><!-- 'Merriweather', serif; -->
-  <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'><!-- 'Lekton', sans-serif; -->
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'><!-- 'Lobster', cursive; -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'><!-- 'PT Sans', sans-serif; -->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -51,9 +62,9 @@
   	<h1 class="title">iampaulb</h1>
   	
   	<nav>
-	  	<a href="#">about</a>
-	  	<a href="#">skills</a>
-	  	<a href="#">contact</a>
+	  	<a href="#">About</a>
+	  	<a href="#">Skills</a>
+	  	<a href="#">Contact</a>
   	</nav>
 
   </header>
@@ -71,22 +82,22 @@
   
   <footer>
   	<div class="social">
-  		<a href="http://www.twitter.com/paulbe_"><img class="tbird" src="img/twitter-bird-light-bgs.png" alt="twitter-bird-light-bgs" width="100" height="100">
-  		<!--<a href="http://www.twitter.com/paulbe_"><img class="tbird" src="img/twitter-bird-dark-bgs.png" alt="twitter-dark-light-bgs" width="100" height="100"> -->
-  		<p>
+  		<div class="tbird">
+  		<a href="http://www.twitter.com/paulbe_"><img  src="img/twitter-bird-light-bgs.png" alt="twitter-bird-light-bgs" width="100" height="100">
+  		</div> 
   		<div class="tweet"></div>
   	</div> 	
+
   	
   	
-     <section id="footlow">
+  	<section id="footlow">
   	<div id="footb_left">
   		This open sourced site is hosted on <a href ="https://github.com/iampaulb/iampaulb-site">Github.</a><br>
   		Patches, suggestions, and comments are welcome.
   	</div>
   	
   	<div id="footb_right">
-  		Paul Bennett | <?php echo date('D, m Y H')?> |
-  		<a href="mailto:hello@iampaulb.com">Email</a> | <a href="skype:skypepaulbennett">Skype</a>
+  		Paul Bennett | <a href="mailto:hello@iampaulb.com">Email</a> | <a href="skype:skypepaulbennett">Skype</a> |<br> <?php echo date('H:i | D, F j ')?>
   	</div>
   </section>
 

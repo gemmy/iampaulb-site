@@ -41,6 +41,7 @@ html {
 	min-height: 1099px;
 	max-height: inherit;
 	max-width: 1099px;
+	min-width: inherit;
 }
 
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
@@ -238,25 +239,22 @@ td { vertical-align: top; }
    ========================================================================== */
    
 .title{
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster13Regular', cursive;
 	font-size: 80px;
-	letter-spacing: -6px;
+	letter-spacing: -4px;
 	
 	float: left;
-	
 	margin-top: -5px
 }
 nav{
-	font-family: 'Lekton', sans-serif;
-	font-variant: small-caps;
-	font-size: 32px;
-
+	font-family: 'OpenSansRegular', sans-serif;
+	font-size: 26px;
 	float: right;	
-	
 	margin-top: 40px;
 }
 nav a{
 	color: #2d2d2d;
+	margin-right: 20px
 }
 nav a:hover{
 	padding: 0px 4px 0px 4px;
@@ -276,14 +274,14 @@ nav a:hover{
 	margin: -50px auto; /*center*/
 	padding: 10px 0px 5px 0px;
 	
-	font-family: 'Lekton', sans-serif;
+	font-family: 'OpenSansRegular', sans-serif;
 	font-size: 34px;
 	line-height: 26px;
 	
 	float: left;
 }
 #mainhead span{
-	font-family: 'Lekton', sans-serif;
+	font-family: 'OpenSansRegular', sans-serif;
 	font-size: 17px;
 	letter-spacing: 2px;
 	text-align: center;
@@ -293,7 +291,7 @@ nav a:hover{
 	float: left;
 	margin: 40px 0 20px 0;
 	
-	font-family: 'Merriweather', serif;
+	font-family: 'Georgia', serif;
 	font-size: 20px;
 	line-height: 25px;
 	-webkit-column-count: 2;
@@ -301,19 +299,20 @@ nav a:hover{
 
 /*** MAIN FOOTER ***/
 footer{
-	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-family: 'Georgia', serif;
+	font-size: 14px;
 	line-height: 17px;
 }
 
 /*** SOCIAL FOOTER ***/
 .social{
 	float: left;
-	padding: 0;
-	height: 65px;
+	height: 89px;
 	width: 820px;
-	display: block;
-	margin: auto;
+
+	position: relative;
+	left: 80px;
+	right: auto;
 	
 	background-color: #e5e5de;
 	
@@ -325,12 +324,21 @@ footer{
 
 
 /*** TWITTER LOGO SPIN ***/
+.tbird{
+	position: relative;
+	right: 6px;
+	bottom: 6px;
+	left: 6px;
+
+}
+
 .tbird a:hover focus{
 	text-decoration: none;
 }
 
 .tbird:hover{
-
+	
+	text-decoration: none;
 	white-space: nowrap;
 	overflow: hidden;
 	

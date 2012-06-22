@@ -1,22 +1,31 @@
 .tweet,
 .query {
+	float: right;
+	
+	width: 439px;		
+	
+	position: relative;
+	right: 280px;
+	bottom: 95px;
+}
+
+
+.tweet_text{
 	font-family: 'PT Sans', sans-serif;	
 	font-size: 16px;
 	line-height: 22px;
-	color: #2d2d2d;
-	float: right;
-	margin: -110px 0px 0px 120px;
-	/*padding: -5px 0px 0px 0px;*/
 }
+
+	
 .tweet_list {
-	-webkit-border-radius: 0.5em;
+	-webkit-border-radius: 0px;
 	-moz-border-radius: 0.5em;
 	border-radius: 0.5em;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow-y: hidden;
-	background-color: #e5e5de;
+	background: none;
 }
 .tweet_list li {
 	overflow-y: auto;
@@ -28,10 +37,19 @@
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
-	color: #fe57a1;
+	list-style: none;
+	color: #fe57a1;	
 }
+.tweet_list li a:hover{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	list-style: none;
+	color: #0098C5;
+}
+
 .tweet_list .tweet_even {
-	background-color: #e5e5de;
+	background: none;
 }
 .tweet_list .tweet_avatar {
 	padding-right: .5em; float: left;
