@@ -90,9 +90,10 @@ if (strcmp($script_tz, ini_get('date.timezone'))){
   		
   		<nav class="socialicons">
   			<ul>
-  				<li><a href="http://twitter.com/paulbe_"></a></li>
-  				<li><a href="linkedin"></a></li>
-  				<li><a href="facebook"></a></li>
+  				<li><a href="http://twitter.com/paulbe_"><img src="img/twitter-2.png" alt="twitter-2" width="24" height="24"></a></li>
+  				<li><a href="linkedin"><img src="img/linkedin.png" alt="linkedin" width="24" height="24"></a></li>
+  				<li><a href="https://github.com/iampaulb"><img src="img/github.png" alt="github" width="24" height="24"></a></li> 
+  				<li><a href="facebook"><img src="img/facebook.png" alt="facebook" width="24" height="24"></a></li>				
   			</ul>
   		</nav>
   	</div> 	

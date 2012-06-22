@@ -320,7 +320,26 @@ footer{
 	-webkit-border-radius: 5px;
 	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
 }
+/*** SOCIAL ICONS ***/
 
+
+.socialicons{
+	position: relative;
+	left: 430px;
+	bottom: 110px;
+}
+
+.socialicons li{
+	display: inline;
+	list-style-type: none;
+}
+
+.socialicons a{margin-right: 0px;}
+.socialicons a:hover{
+	background: none;
+	border: none;
+	-webkit-box-shadow: 0 0 0px rgba(0,0,0,0.0);
+}
 
 
 /*** TWITTER LOGO SPIN ***/
