@@ -80,7 +80,7 @@
   	
      <section id="footlow">
   	<div id="footb_left">
-  		This open sourced site is hosted on <a href="https://github.com/iampaulb/iampaulb-site">GitHub.</a><br>
+  		This open sourced site is hosted on <a href ="https://github.com/iampaulb/iampaulb-site">Github.</a><br>
   		Patches, suggestions, and comments are welcome.
   	</div>
   	
